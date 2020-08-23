@@ -1,0 +1,21 @@
+{
+    "name": "behave-full",
+    "displayName": "Behave full",
+    "description": "Full port of the behave dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Behave full",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Behave full-color-theme.json"
+            }
+        ]
+    }
+}
