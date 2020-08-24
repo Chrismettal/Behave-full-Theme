@@ -2,12 +2,20 @@
     "name": "behave-full-theme",
     "displayName": "Behave Full Dark Theme",
     "description": "Full port of the behave dark theme",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "Chrismettal",
     "engines": {
         "vscode": "^1.4.0"
     },
-    "keywords":["theme", "behave", "dark", "super", "easy", "eye", "textmate"],
+    "keywords": [
+        "theme",
+        "behave",
+        "dark",
+        "super",
+        "easy",
+        "eye",
+        "textmate"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Chrismettal/Behave-full-Theme.git"
@@ -26,4 +34,3 @@
         ]
     }
 }
-
