@@ -3,13 +3,15 @@
     "displayName": "Behave Full",
     "description": "Full port of the behave dark theme",
     "version": "0.0.1",
+    "publisher": "Chrismettal",
     "engines": {
-        "vscode": "^1.48.0"
+        "vscode": "^1.4.0"
     },
     "keywords":["theme", "behave", "dark", "super", "easy", "eye", "textmate"],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Chrismettal/Behave-full-Theme.git",
+        "url": "https://github.com/Chrismettal/Behave-full-Theme.git"
+    },
     "categories": [
         "Themes"
     ],
