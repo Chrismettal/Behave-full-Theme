@@ -38,7 +38,7 @@
 		//"activityBar.inactiveForeground": "#ffffff66",
 		//"activityBarBadge.background": "#007acc",
 		//"activityBarBadge.foreground": "#ffffff",
-		//"badge.background": "#4d4d4d",
+		"badge.background": "#232932",
 		//"badge.foreground": "#ffffff",
 		//"breadcrumb.activeSelectionForeground": "#eceff2",
 		//"breadcrumb.background": "#2c333d",
