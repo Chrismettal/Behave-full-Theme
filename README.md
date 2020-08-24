@@ -1,13 +1,7 @@
-# README
-## This is the README for your extension "behave-full"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Behave full theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Full port of the [Behave theme](https://github.com/fnky/behave-theme) by Christian Petersen.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Extended the colors to all of the menus as well. If you find some non fitting colors peeking through please open up an issue on the [Repo](https://github.com/Chrismettal/Behave-full-Theme)
 
-**Enjoy!**
+<img src="https://github.com/Chrismettal/Behave-full-Theme/blob/master/Screenshot.png" width="900" alt="" />
