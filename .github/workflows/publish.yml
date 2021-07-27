@@ -1,7 +1,10 @@
 on:
   push:
-    tags:
-      - "*"
+    branches: [master]
+    paths:
+      - ".github/workflows/*.yml"
+      - ".*"
+      - "package*.json"
   workflow_dispatch:
 
 name: Deploy Extension
@@ -21,8 +24,8 @@ jobs:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
         continue-on-error: true
-      - name: Upload vsix
+      - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: behave-full-theme.vsix
-          path: behave-full-theme-*.vsix
+          name: Behave-full-Theme-${{ github.sha }}
+          path: ./*.vsix
