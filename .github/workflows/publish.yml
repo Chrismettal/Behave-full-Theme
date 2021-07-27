@@ -8,7 +8,6 @@ name: Deploy Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v2
       - name: Publish to Open VSX Registry
@@ -25,6 +24,5 @@ jobs:
       - name: Upload vsix
         uses: actions/upload-artifact@v2
         with:
-          name: vsix
-          path: behave-full-theme-1.1.0.vsix
-        continue-on-error: true
+          name: behave-full-theme.vsix
+          path: behave-full-theme-*.vsix
