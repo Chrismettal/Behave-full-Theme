@@ -19,3 +19,8 @@ jobs:
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
+      - name: Upload vsix
+        uses: actions/upload-artifact@v2
+        with:
+          name: vsix
+          path: *.vsix
