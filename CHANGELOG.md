@@ -4,6 +4,12 @@ All notable changes to the "behave-full" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
+
+### [1.1.0]
+
+- Change 'foreground' color to be less brown
+
+### [1.0.0]
 
 - Initial release
