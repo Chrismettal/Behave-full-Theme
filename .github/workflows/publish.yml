@@ -8,6 +8,7 @@ name: Deploy Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v2
       - name: Publish to Open VSX Registry
