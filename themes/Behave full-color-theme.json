@@ -420,6 +420,13 @@
 			}
 		},
 		{
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#5AB8E5",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "string, constant.other.symbol, entity.other.inherited-class",
 			"settings": {
 				"foreground": "#EC9076",
@@ -529,9 +536,9 @@
 			}
 		},
 		{
-			"scope": "markup.bold.markdown, markup.italic.markdown",
+			"scope": "markup.bold.markdown, markup.italic.markdown, markup.bold",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#F0D879"
 			}
 		},
 		{
@@ -586,8 +593,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#D2D8E1",
-				"background": "#EF4D44",
+				"foreground": "#EF4D44",
 				"fontStyle": ""
 			}
 		},
@@ -600,8 +606,7 @@
 		{
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#CED2CF",
-				"background": "#B798BF",
+				"foreground": "#EF4D44",
 				"fontStyle": ""
 			}
 		},
