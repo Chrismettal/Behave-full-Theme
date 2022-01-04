@@ -4,11 +4,11 @@ All notable changes to the "behave-full" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
+
+### [1.1.1]
 
 - Change some previously white tags that would all look the same with `Rainbow-CSV`
-
-## [Released]
 
 ### [1.1.0]
 
